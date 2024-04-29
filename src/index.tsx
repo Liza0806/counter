@@ -4,17 +4,21 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { Provider } from 'react-redux';
-import store from './store/CounterWithReduxStore';
+import store from './counterWithRedux/store/CounterWithReduxStore';
+import { BrowserRouter } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
-  <Provider store={store}>
+  <BrowserRouter>
+    <Provider store={store}>
      <React.StrictMode>
     <App />
   </React.StrictMode>
   </Provider>
+  </BrowserRouter>
+
  
 );
 

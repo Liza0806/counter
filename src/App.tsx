@@ -1,11 +1,9 @@
-import React, { useEffect, useState } from "react";
-
 import "./App.css";
 
-import { CounterStartVersion } from "./CounterStartVersion";
-import { CounterWithRedux } from "./CounterWithRedux";
+import { CounterStartVersion } from "./counterStartVersion/CounterStartVersion";
+import { CounterWithRedux } from "./counterWithRedux/CounterWithRedux";
 import { Route, Routes } from "react-router-dom";
-import { Layout } from "./layout";
+import { Layout } from "./counterStartVersion/components/Layout";
 
 function App() {
   return (

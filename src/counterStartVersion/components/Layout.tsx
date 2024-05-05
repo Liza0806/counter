@@ -7,6 +7,7 @@ export const Layout = () => {
        <nav >
        <NavLink to='/CounterStartVersion'>CounterStartVersion</NavLink>
        <NavLink to='/CounterWithRedux'>CounterWithRedux</NavLink>
+       <NavLink to='/CounterWithReduxToolkit'>CounterWithReduxToolkit</NavLink>
       </nav>
       <Outlet />
     </div>
